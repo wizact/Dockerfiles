@@ -1,0 +1,11 @@
+datacontainer:
+  build: ../bash
+  volumes: 
+    - /data/db:/data/db
+mongo:
+  build: ../mongo
+  ports:
+    - "27017:27017"
+    - "28017:28017"
+  volumes_from:
+    - datacontainer
