@@ -1,3 +1,4 @@
+# Composing a Mongo primary node with a linked volume container
 datacontainer:
   build: ../bash
   volumes: 
