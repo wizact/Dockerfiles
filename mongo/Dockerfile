@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER Amir Mohtasebi <amir.mohtasebi@gmail.com>
+LABEL maintainer="amir.mohtasebi@gmail.com"
 
 # Importing MongoDB GPG key and create list file
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
